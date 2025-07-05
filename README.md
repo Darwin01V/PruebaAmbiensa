@@ -1,0 +1,1 @@
+Los pasos para levantar cada proyecto esta en el archivo README de cada proyecto (frontend - backend)
