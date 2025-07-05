@@ -81,7 +81,7 @@ class UsuarioController extends Controller
             $buscar = $request->get('q');
             $response = $this->UsuarioService->listar($buscar);
 
-            return ApiResponse::success($response, "Usuarios obtenidos correctamente", 200);
+            return ApiResponse::success($response['usuarios'], "Usuarios obtenidos correctamente", 200);
         } catch (\Throwable $th) {
             Log::error('Error listar_usuarios: ' . $th->getMessage(), ['exception' => $th]);
             return ApiResponse::error('Ha ocurrido un error al procesar su solicitud.', 500);

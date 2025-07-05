@@ -1,0 +1,3 @@
+- Crear un archivo .env en la raiz del proyecto y agregar la variable VITE_API_URL = 
+- Instalar las dependencias necesarias con el comnado npm i
+- Levantar el servidor con el comando npm run dev

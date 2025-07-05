@@ -42,7 +42,6 @@ class User extends Authenticatable
     ];
 
     protected $casts = [
-        'fecha_nacimiento' => 'date',
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
     ];
